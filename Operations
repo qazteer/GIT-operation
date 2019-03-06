@@ -1,2 +1,5 @@
-1) From remote branch to local branch
+1) PULL prom remote branch to local branch
 git pull origin from:to
+
+1) PUSH from local branch to remote branch
+git push origin from:to
