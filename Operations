@@ -1,5 +1,11 @@
 1) PULL prom remote branch to local branch
 git pull origin from:to
 
-1) PUSH from local branch to remote branch
+2) PUSH from local branch to remote branch
 git push origin from:to
+
+3) Если вы хотите переименовать ветвь, указав ее на любую ветку:
+git branch -m <oldname> <newname>
+
+4) Если вы хотите переименовать текущую ветку:
+git branch -m <newname>
