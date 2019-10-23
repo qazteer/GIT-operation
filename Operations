@@ -18,3 +18,17 @@ git branch -a
 git checkout <имя ветки>
 - ну либо сразу можно:
 git fetch origin <имя_ветки_на_origin>:<имя ветки локальной которая будет создана>
+
+
+
+Switch to GITHUB -(new SSH)
+1. git remote -v -(show remote)
+2. ls -al ~/.ssh -(show ssh)
+3. eval $(ssh-agent -s) -(run ssh-agent)
+4. ssh-add ~/.ssh/id_rsa -(add ssh to ssh-agent)
+5. cd ~/.ssh -(switch to ssh)
+6. cat id_rsa.pub -(open ssh)
+7. git remote set-url origin git@github.com:kiev-office/agents-blue.git -(set new url for origin)
+8. git remote -v -(show remote)
+
+
