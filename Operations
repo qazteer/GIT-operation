@@ -31,4 +31,18 @@ Switch to GITHUB -(new SSH)
 7. git remote set-url origin git@github.com:kiev-office/agents-blue.git -(set new url for origin)
 8. git remote -v -(show remote)
 
+Create new feature and work with it
+1. git checkout develop
+2. git pull
+3. git flow feature start AB-Something
+4. git status, git add, git commit
+5. git fetch
+6. git rebase -i origin/develop
+   - Esc
+   - Shift + :
+   - wq
+   - Enter
+7. If conflict: git rebase -continie
+8. git push
+
 
