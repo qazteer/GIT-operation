@@ -45,4 +45,9 @@ Create new feature and work with it
 7. If conflict: git rebase -continie
 8. git push
 
+Reset ADD
+(file_path = components/traits/UserTrait.php)
+1. git reset HEAD file_path
+2. git checkout file_path 
+
 
